@@ -1,0 +1,27 @@
+{
+  "name": "j1tt3r.net",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \\\"Error: no tests specified\\\" && exit 1",
+    "build": "webpack",
+    "build-docs": "jsdoc src",
+    "start": "http-server"
+  },
+  "keywords": [
+    "j1tt3r"
+  ],
+  "author": "j1tt3r",
+  "license": "MIT",
+  "description": "j1tt3r.net",
+  "devDependencies": {
+    "clean-webpack-plugin": "latest",
+    "html-webpack-plugin": "latest",
+    "jsdom": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "workbox-webpack-plugin": "latest",
+    "web-app-manifest-validator": "latest"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,101 @@
+{
+  "background_color": "#394339",
+  "categories": [
+    "security"
+  ],
+  "description": "j1tt3r",
+  "dir": "auto",
+  "display": "fullscreen",
+  "name": "j1tt3r",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/icons/android-chrome-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/android-chrome-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/android-chrome-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "scope": "/",
+  "short_name": "j1tt3r",
+  "shortcuts": [
+    {
+      "name": "Login",
+      "short_name": "Login",
+      "description": "J1tt3r Login",
+      "url": "/index.html?pwa=1",
+      "icons": [
+        {
+          "src": "/images/incognito-light.jpg",
+          "type": "image/jpeg",
+          "sizes": "750x750"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.j1tt3r.app",
+      "id": "com.j1tt3r.app",
+      "min_version": "2",
+      "fingerprints": [
+        {
+          "type": "sha256_cert",
+          "value": "92:5A:39:05:C5:B9:EA:BC:71:48:5F:F2"
+        }
+      ]
+    },
+    {
+      "platform": "itunes",
+      "url": "https://itunes.apple.com/app/j1tt3r/idj1tt3r"
+    }
+  ],
+  "start_url": "/index.html?pwa=1",
+  "splash_pages": null,
+  "theme_color": "#394339",
+  "screenshots": []
+}

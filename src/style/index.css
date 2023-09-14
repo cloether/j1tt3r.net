@@ -1,0 +1,49 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+:root {
+  height: 100%;
+  width: 100%;
+  /*noinspection LongLine*/
+  background: #6c6c6c url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgMjQwIiBzdHlsZT0iJiMxMDsucm90YXRlLWluZiB7YW5pbWF0aW9uOiByb3RhdGlvbiA4cyBpbmZpbml0ZSBsaW5lYXI7JiMxMDt9JiMxMDsmIzEwO0BrZXlmcmFtZXMgcm90YXRpb24geyYjMTA7ICBmcm9tIHt0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsmIzEwOyAgfSYjMTA7ICB0byB7dHJhbnNmb3JtOiByb3RhdGUoMzU5ZGVnKTsmIzEwOyAgfSYjMTA7fTsiPjxnIG9wYWNpdHk9Ii45NSIgZmlsbD0ic2xhdGVncmV5Ij48cGF0aCBkPSJNMTIxIDBDNTMuOS0uNi0uNiA1My45IDAgMTIxYy42IDY1LjIgNTMuOCAxMTguNCAxMTkgMTE5IDY3LjEuNiAxMjEuNi01My45IDEyMS0xMjFDMjM5LjQgNTMuOCAxODYuMi42IDEyMSAwek05MC41IDU5Yy4zLS45IDEtMS41IDIuMi0xLjIgMi4yLjUgMTkuOSA0LjMgMTkuOSA0LjNzMzYuOC01LjYgMzguMS01LjljMS4xLS4yIDEuOS40IDIuMSAxLjQuMS40IDYuMyAyMS4zIDExLjcgMzkuNUg3OC4zQzgzLjkgNzkuNiA5MC4xIDYwIDkwLjUgNTl6bTg1LjkgMTAzLjNjLS44IDEyLjItMTAuNyAyMi4xLTIyLjkgMjIuOS0xNC4zLjktMjYuMS0xMC40LTI2LjEtMjQuNSAwLS43IDAtMS40LjEtMi4xLTItLjctNC4yLTEtNi40LTEtMi4zIDAtNC41LjQtNi43IDEuMS4xLjcuMSAxLjMuMSAyIDAgMTQuMS0xMS44IDI1LjQtMjYuMSAyNC41LTEyLjItLjgtMjIuMS0xMC43LTIyLjktMjIuOS0uOC0xNC4yIDEwLjUtMjYuMSAyNC41LTI2LjEgMTAuMiAwIDE5IDYuMyAyMi43IDE1LjIgMi43LS44IDUuNS0xLjMgOC40LTEuMyAyLjggMCA1LjUuNCA4LjEgMS4yIDMuNy04LjkgMTIuNC0xNS4xIDIyLjctMTUuMSAxNC4xIDAgMjUuNCAxMS45IDI0LjUgMjYuMXptMjMuNC0zNC4zSDQyLjRjLS4yIDAtLjMtLjMtLjEtLjQgNS4yLTIuNyAzNS40LTE3LjYgNzktMTcuNiA0My43IDAgNzMuNSAxNC44IDc4LjYgMTcuNi4yLjEuMS40LS4xLjR6Ii8+PGNpcmNsZSBjeD0iMTUxLjkiIGN5PSIxNjAuOCIgcj0iMTcuNCIvPjxjaXJjbGUgY3g9IjkwLjEiIGN5PSIxNjAuOCIgcj0iMTcuNCIvPjwvZz48L3N2Zz4=") no-repeat fixed center;
+  overflow: auto;
+  /*animation: rotation 8s infinite cubic-bezier(0.6, -0.28, 0.74, 0.05);*/
+  cursor: crosshair;
+  z-index: 9999999 !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+/* Prevent Display of Footer */
+div > a > img {
+  display: none !important;
+}
+
+canvas {
+  z-index: 0;
+  opacity: 0.6;
+  position: fixed;
+}
+
+@media (orientation: landscape) {
+  img {
+    height: 100%;
+    /* noinspection CssBrowserCompatibilityForProperties */
+    object-fit: cover;
+  }
+}

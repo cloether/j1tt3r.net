@@ -1,0 +1,54 @@
+{
+  "tags":{
+    "allowUnknownTags":true
+  },
+  "plugins":[
+    "eventDumper",
+    "markdown"
+  ],
+  "source":{
+    "excludePattern":"(^|\\/|\\\\)_",
+    "exclude":[
+      "node_modules",
+      "scripts"
+    ],
+    "include":[
+      "src"
+    ],
+    "includePattern":".+\\.js(doc|x)?$"
+  },
+  "templates":{
+    "cleverLinks":true,
+    "monospaceLinks":true,
+    "dateFormat":"ddd MMM Do YYYY",
+    "outputSourceFiles":false,
+    "outputSourcePath":false,
+    "systemName":"j1tt3r",
+    "footer":"",
+    "copyright":"© 2018-2021 j1tt3r.net",
+    "theme":"j1tt3r",
+    "linenums":true,
+    "collapseSymbols":false,
+    "inverseNav":false,
+    "highlightTutorialCode":true,
+    "protocol":"html://"
+  },
+  "markdown":{
+    "parser":"gfm"
+  },
+  "opts":{
+    "tutorials":"docs",
+    "recurse":true,
+    "pedantic":true,
+    "readme":"README.md",
+    "encoding":"utf8",
+    "access":"all",
+    "debug":false,
+    "destination":"docs",
+    "package":".",
+    "template":"templates/default",
+    "test":false
+  },
+  "sourceType":"module",
+  "recurseDepth":10
+}
